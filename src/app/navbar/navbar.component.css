@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: crimson;
+    color: #fff;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
